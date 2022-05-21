@@ -1,0 +1,70 @@
+.title{
+width: 70%;
+margin: 0%;
+padding: 1%;
+background-color:;
+Color: ;
+font-size: 45px; 
+text-indent: 0px;
+font-family:  serif;
+
+animation-duration: 3s;
+animation-name: slidein;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+@keyframes slidein {
+from {
+    margin-left: 50%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+html {  
+
+    cursor:crosshair;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    box-sizing: border-box;
+    
+    
+}
+button:hover {   
+    background-color: transparent;
+    border: 0px;
+    margin: 15px;
+    transition: 1s;
+    display:inline;
+    text-decoration:dashed;
+    font-size:x-large;
+    
+}  
+
+
+
+button{
+    background-color: transparent;
+    border: 0px;
+    margin: 15px;
+    font-size: medium;
+    box-shadow: 10px -5px 5px blue;
+    animation-name: rotate;
+    
+}
+
+
+body{
+    background-image: url("/Users/ryanfrenia/Momentum/homework/portfolio-rfrenia/CR-1.jpeg") ;
+    background-size: cover;
+
+    background-blend-mode: multiply;
+}
